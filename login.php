@@ -1,3 +1,6 @@
+
+
+<!DOCTYPE html>
 <?php
 require 'db.php';
 session_start();
@@ -20,7 +23,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="style.css">
